@@ -1,0 +1,22 @@
+//Ask the user for an integer and use if-else to print whether it's even or odd. Reuse the modulus logic from Module 3, Problem 6 — now with real branching.
+
+//Sample Run:
+
+//Enter a number: 14
+//14 is EVEN.
+
+#include <stdio.h>
+
+int main() {
+
+    int num;
+    printf("Enter your number:");
+    scanf("%d", &num);
+
+    if(num%2==0){
+       printf("%d is even", num);
+    }else{
+       printf("%d is odd", num);
+    }
+    return 0;
+}
